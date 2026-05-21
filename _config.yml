@@ -1,0 +1,32 @@
+# Jekyll config — custom layouts, no theme.
+# Serves: storagemax.app (custom domain via GitHub Pages CNAME, set in the
+# repo's Pages settings; CNAME file auto-managed there).
+
+title: StorageMax
+description: "Swipe to clean your camera roll. On-device. No data collected."
+url: "https://storagemax.app"
+
+# Clean URLs: /privacy/, /terms/, /subscription-terms/, /
+permalink: /:title/
+
+# Exclude the cleanup-app/ reference material — not for publishing.
+exclude:
+  - cleanup-app/
+  - _config.yml
+  - README.md
+
+# Default layout for any .md file that doesn't set its own.
+defaults:
+  - scope: { path: "" }
+    values:
+      layout: legal
+
+# Markdown engine + smart typography.
+markdown: kramdown
+kramdown:
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  syntax_highlighter: rouge
+
+# Plugins (jekyll-seo-tag is whitelisted on GitHub Pages).
+plugins:
+  - jekyll-seo-tag
