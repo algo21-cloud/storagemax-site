@@ -2,8 +2,8 @@
 # Serves: storagemax.app (custom domain via GitHub Pages CNAME, set in the
 # repo's Pages settings; CNAME file auto-managed there).
 
-title: StorageMax
-description: "Swipe to clean your camera roll. On-device. No data collected."
+title: "Maxie: Photo Cleanup"
+description: "Swipe to clean your camera roll. Find duplicates, blurry shots, screenshots, and large videos. Free up GBs in 5 minutes. On-device. No data collected."
 url: "https://storagemax.app"
 
 # Clean URLs: /privacy/, /terms/, /subscription-terms/, /

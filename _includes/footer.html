@@ -1,19 +1,14 @@
 <footer class="site-footer">
   <div class="container">
-    <div class="footer-row">
-      <a href="{{ '/' | relative_url }}" class="footer-wordmark">
-        <img src="{{ '/assets/img/icon-180.png' | relative_url }}" alt="" width="28" height="28" />
-        <span>StorageMax</span>
-      </a>
-      <nav class="footer-nav">
-        <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
-        <a href="{{ '/terms/' | relative_url }}">Terms</a>
-        <a href="{{ '/subscription-terms/' | relative_url }}">Subscription</a>
-        <a href="mailto:support@storagemax.app">Support</a>
-      </nav>
-    </div>
-    <p class="footer-fineprint">
-      © {{ site.time | date: '%Y' }} StorageMax. Made with care for your camera roll.
-    </p>
+    <a href="{{ '/' | relative_url }}" class="wordmark">
+      <img src="{{ '/assets/img/icon-180.png' | relative_url }}" alt="" width="28" height="28" />
+      <span>Maxie</span>
+    </a>
+    <nav class="footer-links">
+      <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
+      <a href="{{ '/terms/' | relative_url }}">Terms</a>
+      <a href="mailto:support@storagemax.app">Support</a>
+    </nav>
+    <span>© {{ site.time | date: '%Y' }} Maxie · on-device · no data collected</span>
   </div>
 </footer>

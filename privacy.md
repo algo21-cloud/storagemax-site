@@ -1,20 +1,20 @@
 ---
 title: Privacy Policy
 permalink: /privacy/
-description: "StorageMax does not collect, store, or transmit any of your data. Read our full privacy policy."
+description: "Maxie does not collect, store, or transmit any of your data. Read our full privacy policy."
 ---
 
-# StorageMax — Privacy Policy
+# Maxie — Privacy Policy
 
 **Last updated:** May 19, 2026
 
-StorageMax is an iPhone photo-cleanup app. We believe the simplest privacy
-policy is the truest one: **StorageMax does not collect, store, or transmit
+Maxie is an iPhone photo-cleanup app. We believe the simplest privacy
+policy is the truest one: **Maxie does not collect, store, or transmit
 your personal data.**
 
-## What StorageMax does on your device
+## What Maxie does on your device
 
-When you grant photo access, StorageMax:
+When you grant photo access, Maxie:
 
 - Scans your Photo Library to detect screenshots, duplicates, similar
   shots, blurry photos, large videos, and Live Photos.
@@ -24,26 +24,26 @@ When you grant photo access, StorageMax:
 - Caches small thumbnail previews using Apple's `PHCachingImageManager`
   for performance.
 
-When you swipe to delete, StorageMax calls `PHPhotoLibrary.performChanges`
+When you swipe to delete, Maxie calls `PHPhotoLibrary.performChanges`
 through Apple's native Photos framework. iOS handles the actual
-deletion — StorageMax has no access to your photo files outside the
+deletion — Maxie has no access to your photo files outside the
 standard Photos API.
 
-## What StorageMax does NOT do
+## What Maxie does NOT do
 
-- StorageMax does not include any analytics SDK.
-- StorageMax does not make any network requests with your personal data.
-- StorageMax does not show ads or share data with advertisers.
-- StorageMax does not request App Tracking Transparency permission.
-- StorageMax does not back up, sync, or upload your photos to any server.
+- Maxie does not include any analytics SDK.
+- Maxie does not make any network requests with your personal data.
+- Maxie does not show ads or share data with advertisers.
+- Maxie does not request App Tracking Transparency permission.
+- Maxie does not back up, sync, or upload your photos to any server.
 
-The only network traffic StorageMax generates is Apple's own StoreKit
+The only network traffic Maxie generates is Apple's own StoreKit
 purchase verification when you subscribe — handled entirely between
 your iPhone and Apple's servers. We never see your payment info.
 
 ## Data we store on your device
 
-StorageMax persists a small amount of data locally in
+Maxie persists a small amount of data locally in
 `UserDefaults` and the app's sandboxed container:
 
 - Whether you've completed onboarding
@@ -52,29 +52,29 @@ StorageMax persists a small amount of data locally in
 - Your subscription state (mirrored from Apple's StoreKit)
 - A flag indicating whether you've seen the swipe-deck tutorial
 
-This data never leaves your device. Deleting StorageMax removes all of it.
+This data never leaves your device. Deleting Maxie removes all of it.
 
 ## Photo permissions
 
-StorageMax needs access to your Photo Library to function. iOS shows you
+Maxie needs access to your Photo Library to function. iOS shows you
 the standard permission prompt the first time the app reads or
 modifies your library. You can change this anytime in
-**Settings → Privacy & Security → Photos → StorageMax**.
+**Settings → Privacy & Security → Photos → Maxie**.
 
 You can grant full access or limited access. With limited access,
-StorageMax can only see the photos you explicitly share with it.
+Maxie can only see the photos you explicitly share with it.
 
 ## Subscription privacy
 
-StorageMax offers an auto-renewing weekly subscription ($9.99/week with a
+Maxie offers an auto-renewing weekly subscription ($9.99/week with a
 7-day free trial). Apple handles billing. The only information
-StorageMax sees is whether your subscription is active or not — a single
+Maxie sees is whether your subscription is active or not — a single
 boolean state returned by StoreKit. We never see your Apple ID,
 email, name, or payment details.
 
 ## Children
 
-StorageMax is rated 4+ and contains no objectionable content. We do not
+Maxie is rated 4+ and contains no objectionable content. We do not
 knowingly collect any data from anyone, including children.
 
 ## Changes to this policy
